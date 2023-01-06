@@ -11,4 +11,5 @@ I decided to do the same in case anyone might find it usefull.
 Hope it helps
 
 Here is the visible webpage:
-https://github.com/Sheeny81/TinDog/index.html
+https://Sheeny81.github.io//TinDog/index.html
+
