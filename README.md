@@ -10,6 +10,6 @@ I decided to do the same in case anyone might find it usefull.
 
 Hope it helps
 
-Here is the visible webpage:
+Here is the Live webpage:
 https://Sheeny81.github.io//TinDog/index.html
 
