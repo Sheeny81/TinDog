@@ -1,0 +1,290 @@
+/* fonts 
+font-family: 'Montserrat',sans-serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+
+/* ALL PAGE */
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-weight: 700;
+}
+
+/*Containers*/
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/*colored sections*/
+
+.white-section {
+    background-color: white;
+}
+
+.strong-color-section {
+    background-color: #ff4c68;
+    color:white;
+}
+
+.medium-color-section {
+    background-color: #ef8172;
+    color:white;
+}
+
+
+/*TITLE =============================================================================*/
+
+/*NAVBAR -----*/
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-size: 2.5rem;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+
+.title-heading {
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+/* TITLE DOWNLOAD BUTTONS ------*/
+.download-btn{
+    margin:5% 3% 5% 0;
+}
+
+/* TITLE IMAGE ------*/
+.title-image {
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: rotate(25deg);
+}
+
+@media (max-width: 1028px) {
+    
+    .title-heading {
+        text-align: center;
+    }
+    .title-btn-cont {
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .title-image {
+        position: static;
+        padding:7% 0 0 0;
+        margin-bottom: -2%;
+        transform: rotate(0);
+        max-width:60%;
+    }
+}
+
+/*FEATURES =============================================================================*/
+#features{
+    position: relative;
+}
+
+#features .col-lg-4 {
+    padding: 5%;
+}
+
+.feature-icon {
+    color:#ef8172;
+    padding:5%;
+}
+
+.feature-icon:hover {
+    color: #ff4c68;
+    transform: scale(1.5);
+}
+
+.feature-header {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.feature-p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color:#8f8f8f;
+}
+
+/* TESTIMONIAL CARROUSEL =============================================================================*/
+
+
+.testimonial-image{
+    min-width: 100px;
+    width:10%;
+    border-radius: 100%;
+    border-style: solid;
+    margin:20px;
+    transform: scale(1.5);
+}
+
+.testimonial-text{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-size: 3rem;
+    padding:5% 0;
+    font-weight: 700;
+
+}
+
+.carousel-item{
+    padding:7% 15%;
+}
+
+.testimonial-nameloc{
+    padding: 0 5%;
+}
+
+/* PRESS SECTION =============================================================================*/
+
+#press{
+    text-align: center;
+    padding: 0 5% 3% 5%;
+}
+
+.press-logo{
+    width:75px;
+}
+
+.press-image-pad{
+    padding:5% 0 5% 0;
+}
+
+.press-img{
+    width:95%;
+    padding:5% 2%;
+    max-width: 300px;
+}
+
+/* PRICING =============================================================================*/
+
+#pricing{
+    padding:5%;
+}
+
+.prc-h2{
+    font-size: 3rem;
+    padding: 0 0;
+    font-weight: 700;
+    color: black;
+}
+
+.prc-p{
+    font-size: 1rem;
+    padding:0 0;
+    font-weight: 300;
+    color: #8f8f8f;
+}
+
+.priceblocs{
+    padding:3% 5%;
+}
+
+.card{
+    max-width: 20%px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    --bs-card-border-color:#ef8172;
+    --bs-card-cap-bg: #efb6ae;
+}
+
+.card-category{
+    color:white;
+}
+
+.card3{
+    --bs-card-cap-bg:#ef8172;
+}
+
+.btn-free{
+    --bs-btn-color: #ef8172;
+    --bs-btn-border-color: #ef8172;
+    --bs-btn-hover-color:white;
+    --bs-btn-hover-bg:#ef8172;
+    --bs-btn-hover-border-color:#ff4c68;
+    --bs-btn-active-bg:#c23a4e;
+    --bs-btn-active-border-color:#c23a4e;
+    --bs-btn-active-color:white;
+}
+
+.btn-lab{
+    --bs-btn-color: white;
+    --bs-btn-bg:#ef8172;
+    --bs-btn-border-color: #ef8172;
+    --bs-btn-hover-color: white;
+    --bs-btn-hover-bg: #ef8172;
+    --bs-btn-hover-border-color: #ff4c68;
+    --bs-btn-active-bg: #c23a4e;
+    --bs-btn-active-border-color: #c23a4e;
+    --bs-btn-active-color: white;
+    }
+
+.btn-mas{
+    --bs-btn-color: white;
+    --bs-btn-bg:#ef8172;
+    --bs-btn-border-color: #ef8172;
+    --bs-btn-hover-color: white;
+    --bs-btn-hover-bg: #ef8172;
+    --bs-btn-hover-border-color: #ff4c68;
+    --bs-btn-active-bg: #c23a4e;
+    --bs-btn-active-border-color: #c23a4e;
+    --bs-btn-active-color: white;
+
+}
+
+/* CALL TO ACTION */
+.cta-h3{
+
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+
+/* FOOTER */
+
+.footer-icon {
+    padding: 1%;
+    color:#ff4c68;
+}
+
+.copyright{
+    color:#8f8f8f;
+}
